@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT CHECK BOXES:"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA"
+        android:layout_marginTop="140dp"
+        android:paddingLeft="30dp"
+        android:id="@+id/java"
+        android:checked="false"
+        />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PYTHON"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="30dp"
+            android:id="@+id/python"
+            android:checked="false"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="30dp"
+            android:id="@+id/c"
+            android:checked="false"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ANDROID"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="30dp"
+            android:id="@+id/android"
+            android:checked="false"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CSS"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="60dp"
+            android:id="@+id/css"
+            android:checked="false"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
